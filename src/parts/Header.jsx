@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header({ theme, postition }) {
   return (
-    <header className={[postition, 'w-full z-50 px-4'].join(' ')}>
+    <header className={[postition, 'w-full z-20 px-4'].join(' ')}>
       <div className='container mx-auto py-5'>
         <div className='flex flex-stretch items-center'>
           <div className='w-56 items-center flex'>
