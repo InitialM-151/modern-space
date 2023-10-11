@@ -1,4 +1,4 @@
-import { useState, useCallback, useReducer, useRef } from 'react';
+import { useCallback, useReducer, useRef } from 'react';
 import useSafeDispatch from './useSafeDispatch';
 
 const defaultState = { data: null, status: 'idle', error: null };
